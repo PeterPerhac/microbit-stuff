@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="dN@yf!]OWb)F|}w.)8Oy" x="0" y="0"></block><block type="device_forever" id="C^+a5V9IZw3vm^VSVU%x" x="205" y="0"><statement name="HANDLER"><block type="device_show_leds" id="v?PjA{0BB(]+Az1@;[=:"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="basic_show_icon" id="c6d47?s_P4Q(5.%ai]j_"><field name="i">IconNames.Heart</field><next><block type="device_show_leds" id="c9kXy,IjHdIO^@8d*!$J"><field name="LEDS">`
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="controls_if" id="arrghxzpV{=SNSchdyq#"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="sG,?dEzw.ll-#Tmp?tq)"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="basic_show_icon" id="0D=CTg`a`Xw35C_jC$Oe"><field name="i">IconNames.Sad</field><next><block type="device_pause" id="~,$?`A/2*tC_)gY]YZ(P"><value name="pause"><shadow type="timePicker" id="~:HucV+J$IH0!@`)ow13"><field name="ms">3000</field></shadow></value></block></next></block></statement><next><block type="device_print_message" id="(d77:cYw=deMgo*!EoA4"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_temperature" id="W1dL|Yq/iB=h$Ff{3sji"></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>
